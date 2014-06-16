@@ -14,6 +14,8 @@
 /* Compiler specific macro definitions */
 #if defined(__GNUC__)
 # include "lta/lta-gcc.h"
+#elif define(__clang__)
+# include "lta/lta-clang.h"
 #elif defined(__IAR_SYSTEMS_ICC__)
 # include "lta/lta-iar.h"
 #else

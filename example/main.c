@@ -3,8 +3,6 @@
 
 int main (int argc, char *argv[])
 {
-  printf("cfgopts at %p\n",cfgopts);
-
   if (!parse_cfgopts (argc, argv))
     return 1;
 
