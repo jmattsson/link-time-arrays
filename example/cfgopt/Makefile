@@ -8,7 +8,7 @@ SRCS=\
 
 OBJS=$(SRCS:.c=.o)
 
-CFLAGS+= -I../include -pipe -g -std=c99 -O0
+CFLAGS+= -I../../include -pipe -g -std=c99 -O0
 
 gcc:
 	$(MAKE) clean
