@@ -19,6 +19,6 @@ CFGOPT(output) =
 {
   .short_opt = 'o',
   .has_arg = true,
-  .description = "Specified output file as <arg>",
+  .description = "Specifies output file as <arg>",
   .handler = on_opt_o,
 };
